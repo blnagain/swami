@@ -276,12 +276,12 @@ static void active_item_realtime_update(WavetblFluidSynth *wavetbl,
 /* FluidSynth settings boolean exceptions (yes/no string values) */
 static const char *settings_str_bool[] =
 {
-    "audio.jack.multi",
-    "synth.chorus.active",
-    "synth.dump",
-    "synth.ladspa.active",
-    "synth.reverb.active",
-    "synth.verbose",
+    "audio-jack-multi",
+    "synth-chorus-active",
+    "synth-dump",
+    "synth-ladspa-active",
+    "synth-reverb-active",
+    "synth-verbose",
     NULL
 };
 
